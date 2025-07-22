@@ -10,17 +10,17 @@ Manajemen *cleaning service* sering menghadapi tantangan dalam menentukan jumlah
 
 ## Fitur Utama
 
-* **Prediksi *Manpower***: Memprediksi jumlah *manpower* yang dibutuhkan berdasarkan parameter input.
+* **Prediksi *Manpower***: Memprediksi jumlah *manpower* tim cleaning service yang dibutuhkan berdasarkan parameter input.
 * **Analisis Faktor**: Mengidentifikasi dan menganalisis faktor-faktor kunci yang memengaruhi kebutuhan *manpower* (misalnya, luas area, jenis fasilitas, frekuensi pembersihan, tingkat kunjungan, dll.).
 * **Rekomendasi Optimal**: Memberikan rekomendasi jumlah *manpower* yang efisien dan efektif.
-* **Antarmuka Pengguna (Opsional)**: Jika ada, jelaskan singkat antarmuka yang dibuat (misalnya, Streamlit, Flask Web App).
+* **Antarmuka Pengguna Interaktif**: Dilengkapi dengan antarmuka berbasis Streamlit yang memungkinkan interaksi dua arah, mirip dengan pengalaman pengguna pada model bahasa besar seperti ChatGPT atau Gemini, untuk memasukkan parameter dan menerima rekomendasi secara real-time.
 
 ## Tujuan Proyek
 
 * Mengimplementasikan pengetahuan Data Science yang diperoleh selama bootcamp.
 * Membangun model AI yang robust dan akurat untuk kasus nyata.
 * Memberikan solusi inovatif untuk masalah manajemen *cleaning service* di fasilitas properti.
-* Meningkatkan efisiensi operasional dan kualitas kebersihan.
+* Meningkatkan efisiensi operasional.
 
 ## Teknologi yang Digunakan
 
@@ -29,33 +29,18 @@ Manajemen *cleaning service* sering menghadapi tantangan dalam menentukan jumlah
     * `pandas` (Manipulasi Data)
     * `numpy` (Komputasi Numerik)
     * `scikit-learn` (Model Machine Learning: Regresi, Klasifikasi, dll.)
+    * `streamlit` (Untuk Antarmuka Pengguna Interaktif)
+    * `langchain_core`, `langchain.agents`, `langchain_google_genai` (Untuk Integrasi AI Generatif dan Agen Interaktif)
     * `matplotlib` & `seaborn` (Visualisasi Data)
-    * `streamlit` / `flask` (Jika ada *web app* sebagai antarmuka)
-    * (Tambahkan library lain yang kamu gunakan, seperti `xgboost`, `lightgbm`, `tensorflow`, `pytorch` jika relevan)
+    * `dotenv` (Manajemen Variabel Lingkungan)
+    * `pydantic` (Validasi Data)
+    * `fpdf` (Pembuatan Laporan PDF)
+    * `smtplib`, `email` (Pengiriman Email)
 * **Lingkungan Pengembangan**: Jupyter Notebook, VS Code
 * **Manajemen Paket**: `pip`
 
 ## Struktur Proyek
 .
-├── data/
-│   ├── raw_data.csv        # Data mentah
-│   └── processed_data.csv  # Data yang sudah dibersihkan/diproses
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_model_evaluation.ipynb
-├── src/
-│   ├── data_preprocessing.py   # Skrip untuk preprocessing data
-│   ├── model_training.py       # Skrip untuk melatih model
-│   └── prediction.py           # Skrip untuk melakukan prediksi
-├── models/
-│   └── best_model.pkl          # Model yang sudah dilatih dan disimpan
-├── app/ (Opsional, jika ada Streamlit/Flask app)
-│   └── app.py                  # Skrip utama aplikasi web
-├── README.md                   # File ini
-├── requirements.txt            # Daftar dependensi proyek
-└── LICENSE                     # Lisensi proyek (opsional)
 
 .
 ## Instalasi dan Penggunaan
@@ -113,9 +98,7 @@ Dataset yang digunakan untuk proyek ini (jelaskan secara singkat sumber data ata
 
 ## Hasil dan Analisis
 
-* Sebutkan performa model terbaik yang dicapai (misalnya, "Model terbaik mencapai R2-score sebesar X% pada data uji").
-* Diskusikan *feature importance* jika relevan (fitur apa yang paling memengaruhi rekomendasi *manpower*).
-* Jelaskan implikasi hasil dan bagaimana sistem ini dapat membantu manajemen fasilitas.
+*
 
 ## Tantangan dan Pembelajaran
 
@@ -132,7 +115,7 @@ Dataset yang digunakan untuk proyek ini (jelaskan secara singkat sumber data ata
 
 ## Kontributor
 
-* **Nama Lengkap Anda** - [LinkedIn Anda](link-linkedin-anda) | [GitHub Anda](link-github-anda)
+* **Nama Lengkap Anda** - [LinkedIn Anda](linkedin.com/in/kelvinsetyadi1712) | [GitHub Anda](link-github-anda)
 
 ## Lisensi
 
