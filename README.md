@@ -115,7 +115,7 @@ Dataset yang digunakan untuk proyek ini (jelaskan secara singkat sumber data ata
 
 ## Kontributor
 
-* **Nama Lengkap Anda** - [LinkedIn Anda](linkedin.com/in/kelvinsetyadi1712) | [GitHub Anda](link-github-anda)
+* **Nama Lengkap Anda** - [LinkedIn Anda](https://www.linkedin.com/in/kelvinsetyadi1712/) | [GitHub Anda](link-github-anda)
 
 ## Lisensi
 
